@@ -54,7 +54,7 @@ public class Main {
         int ind1= (int)(Math.random()*10);
         int ind2= (int)(Math.random()*10);
 
-        int coup=20;
+        int coup=tab[ind1].getVie();
 
 
         tab[ind1].attaque(tab[ind2]);
